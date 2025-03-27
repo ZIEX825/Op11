@@ -1,208 +1,116 @@
 <!DOCTYPE html>
-
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    
-    <title>OP store</title>
-    <style>
-        body {
-                margin: 0;
-                font-family: "Roboto", sans-serif;
-
-        }
-        .header {
-            background-color: #0171d9;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 50px;
-        }
-        .header-links a {
-            color: white;
-            padding: 5px 15px;
-            text-decoration: none;
-            border-radius: 15px;
-        }
-        .header-links a:hover {
-            background-color: #2386fe;
-        }
-        
-        .btn:hover{
-            background-color: chocolate;
-
-        }
-        .Landing-page {
-            background-color: #0171d9;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: white;
-            padding: 10px 50px;
-            border-radius: 0 0 50px 50px;
-            
-        }
-        .Landing-page-search input {
-            border-radius: 50px;
-            border: none;
-            outline: none;
-            height: 30px;
-            padding: 0 10px;
-        }
-        .Landing-page-search button {
-            position: absolute;
-            left: 200px;
-            height: 30px;
-            
-        }
-        .btn {
-            background-color: #ee626B;
-            border-radius: 15px;
-            padding:5px 15px ;
-            color: white;
-            border: none;
-        }
-        .Landing-page-image-container img {
-            border-radius: 20px;
-            width: 250px;
-        }
-        .Landing-page-left section {
-            width: 400;
-        }
-
-        .Games-container {
-            padding: 25px 50px;
-        }
-        .Games-container span {
-            color:red ;
-            text-transform: uppercase;
-            font-size: 14px;
-        }
-        .trendding-heder {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .trendding-heder h1 {
-            margin-top: 0;
-        }
-        .card-info {
-            display: flex;
-            justify-content: space-between;
-            padding: 5px 25px;
-            align-items: center;
-        }
-        .card {
-            width:300px ;
-            background-color: #969595;
-            border-radius: 20px;
-        }
-        .cord-thumb {
-            border-radius: 20px 20px 0 0;
-        }
-        .card-info img {
-            width: 70px;
-            border-radius: 50px;
-            
-        } 
-        
-        
-       
-        
-        
-
-    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <title>Op Store</title>
 </head>
 <body>
-    <div class="header" style="background-color: #0171d9; ;">
-            <img src="images/logo.png.gif" 
-            width="100"/>
-            <div class="header-links">
-                <a href="test.html">Home</a>
-                <a href="#"> Our Shop</a>
-                <a href="#"> contact</a>
-                <a href="#"> About</a> 
-                <a href="#"> back</a>
-                <button class="btn">sign in</button>
-            </div>
+  <!-- HEADER -->
+  <div class="header">
+    <img class="logo" src="images/Picsart_25-03-27_23-47-30-043.jpg" />
+    <div class="header-links">
+      <a href="index.html">Home</a>
+      <a href="#">Our shop</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
     </div>
-    <div >
-       <!--Landing page-->
-       <div class="Landing-page" >
-        <div class="Landing-page-left section">
-            <span>welcome to Op store</span> 
-            <h1>Best Gaming site ever!</h1>
-            <p>
-                jhdjuhgsdgad
-                slkdiwsifhaufafhuhasufahuufsgfasfhafhafsiasofjhh
-                swwdskalfshgskkkkiu
-            </p>
-            <div class="Landing-page-search">
-                <input placeholder="start typing..."/>
-                <button class="btn">SEARCH</button>
-            </div>
+  </div>
+
+  <!-- Landing Page -->
+  <div class="landing-page">
+    <div class="landing-page-left-section">
+      <span>Welcome To Op Store!</span>
+      <h1>Best Gaming Site ever!</h1>
+      <h4>
+        ليه تشتري مننا ؟ 
+بكل بساطه لأنه يوفر منتجات عالية الجودة بأسعار تنافسية، مع تجربة تسوق مريحة وسهلة علي الموقع بتاعنا بنتميز بخدمة عملاء بعد البيع مميزه جدا وتوصيل سريع، ومجموعة متنوعة من الخيارات التي تلبي احتياجاتك بالإضافة إلى ذلك، يضمن متجرنا المصداقية والموثوقية، مما يجعلكم تعودون للشراء مرة أخرى بثقة 
+      </h4>
+      <div class="landing-page-search">
+        <input placeholder="Start typing..." />
+        <button class="btn">SEARCH</button>
+      </div>
+    </div>
+    <div class="landing-page-image-container">
+      <img src="images/op.png" />
+    </div>
+  </div>
+
+  <!-- Trending Games -->
+  <div class="trending-container">
+    <span>Trending</span>
+    <div class="trending-header">
+      <h1>Games</h1>
+      <button class="btn">view all</button>
+    </div>
+    <div class="trending-cards">
+      <div class="card">
+        <img class="thumb" src="images/download (1).jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>Valorent</h3>
+          </div>
+          <a>
+            <button class="btn">BUY</button>
+          </a>
         </div>
-        <div class="Landing-page-image-container">
-            <img src="images/Assassins_Creed_2_Box_ar.jpg"/>
+      </div>
 
+      <div class="card">
+        <img class="thumb" src="images/download (2).jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>warzone</h3>
+          </div>
+          <a>
+            <button class="btn">BUY</button>
+          </a>
         </div>
-       </div>
+      </div>
 
-       <!--trending games-->
-
-       <div class="Games-container">
-        <span>Games</span>
-        <div class="trendding-heder">
-            <h1>Games</h1>
-            <button class="btn">view all</button>
+      <div class="card">
+        <img class="thumb" src="images/download (3).jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>PUBG MOBILE</h3>
+          </div>
+          <a>
+            <button class="btn">BUY</button>
+          </a>
         </div>
-        <div class="Games-cards">
-            <div class="card">
-                <img class="cord-thumb" src="images/PUBG-MOBILE.jpg"  
-                width="300"/>
-                
-                <div class="card-info">
-                    <div class="card-name">
-                        <p>Action</p>
-                        <h3>pupg</h3>
-                    </div>
-                    <a>
-                        <button class="btn">Buy</button>
-                    </a>
-                </div>
+      </div>
 
-                
-
-                    <div class="card">
-                        <img class="cord-thumb" src="images/download (2).jpg"  
-                        width="300"/>
-                        
-                        <div class="card-info">
-                            <div class="card-name">
-                                <p>Action</p>
-                                <h3>warzon</h3>
-                            </div>
-                            <a>
-                                <button class="btn">Buy</button>
-                            </a>
-                        </div>
-
-                        <div class="card">
-                            <img class="cord-thumb" src="images/download (1).jpg"  
-                            width="300"/>
-                            
-                            <div class="card-info">
-                                <div class="card-name">
-                                    <p>Action</p>
-                                    <h3>Valorant</h3>
-                                </div>
-                                <a>
-                                    <button class="btn">Buy</button>
-                            </div>
-            </div>
+       <div class="card">
+        <img class="thumb" src="images/2 (2).jpeg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>overwotch2</h3>
+          </div>
+          <a>
+            <button class="btn">BUY</button>
+          </a>
         </div>
-       </div>
+      </div>
 
+      <div class="card">
+        <img class="thumb" src="images/league-of-legends-pc-game-cover (1).jpg" />
+        <div class="card-info">
+          <div class="card-name">
+            <p>Action</p>
+            <h3>League Of Legend</h3>
+          </div>
+          <a>
+            <button class="btn">BUY</button>
+          </a>
+        </div>
+    </div>
+  </div>
 </body>
